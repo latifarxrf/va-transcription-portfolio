@@ -137,6 +137,7 @@
 # Bagian 7: Kontak & Langkah Berikutnya
 
 - **Email:** [farhan.nur.huda092@gmail.com](mailto:farhan.nur.huda092@gmail.com)
+- **WhatsApp:** +62 856-0485-5862 (wa.me/6285604855862)
 - **Portfolio lengkap (file proyek, dataset & skrip):** [github.com/latifarxrf/va-transcription-portfolio](https://github.com/latifarxrf/va-transcription-portfolio)
 - **GitHub profile:** [github.com/latifarxrf](https://github.com/latifarxrf)
 - **Langkah berikutnya:** kirim detail scope beserta contoh audio atau spreadsheet, lalu saya kerjakan paid trial 5 jam untuk verifikasi kecepatan, akurasi, dan workflow.

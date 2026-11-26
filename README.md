@@ -143,4 +143,5 @@ Interested in discussing how I can assist your daily workflow? Feel free to reac
 - **GitHub Profile:** [https://github.com/latifarxrf](https://github.com/latifarxrf)
 - **Repository Link:** [https://github.com/latifarxrf/va-transcription-portfolio](https://github.com/latifarxrf/va-transcription-portfolio)
 - **Email:** `farhan.nur.huda092@gmail.com`
+- **WhatsApp:** `+62 856-0485-5862` (wa.me/6285604855862)
 - **Availability:** Ready to start immediately.
