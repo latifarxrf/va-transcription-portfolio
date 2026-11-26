@@ -1,5 +1,9 @@
 # 📂 Virtual Assistant, Transcription & Data Processing Portfolio
 
+> ⚠️ **Catatan transparansi:** Ini adalah portofolio **entry-level**. Seluruh proyek di repo ini adalah **latihan terstruktur dan simulasi kasus nyata**, bukan pekerjaan untuk klien industri, dan seluruh dataset adalah dummy/sintetis. Angka dan metrik berasal dari simulasi serta uji mandiri saya, bukan hasil produksi klien. Cara paling jujur untuk memverifikasi kemampuan saya: **paid trial 5 jam** dengan file kerja nyata Anda.
+>
+> Sumber halaman web publik: [notion-page-content.md](notion-page-content.md)
+
 > **Candidate:** Latifar (@latifarxrf)  
 > **Location:** Indonesia (GMT+7 / WIB) — Flexible overlap with US (EST/PST) & European business hours  
 > **Availability:** 20–25 hours/week (Part-Time / Contract, expandable to Full-Time)  
@@ -32,7 +36,7 @@ Detail-oriented remote specialist bridging administrative operations, transcript
 
 ---
 
-## 💼 Section 1: Virtual Assistant Projects
+## 💼 Section 1: Virtual Assistant Projects *(structured practice & simulations)*
 
 ### Project A: Executive Email & Calendar Management Simulation
 * **Challenge:** Managing an executive inbox receiving 50+ emails/day and coordinating complex international meeting schedules.
@@ -58,7 +62,7 @@ Detail-oriented remote specialist bridging administrative operations, transcript
 
 ---
 
-## 🎙️ Section 2: Audio Transcription & QC Standards
+## 🎙️ Section 2: Audio Transcription & QC Standards *(practice transcripts — no audio files included)*
 
 ### Sample 1: Scientific / Educational Podcast (Clean Verbatim)
 - **Audio Profile:** High-density neuroscience discussion (dopamine pathways, receptor regulation).
@@ -79,7 +83,7 @@ Detail-oriented remote specialist bridging administrative operations, transcript
 
 ---
 
-## 📊 Section 3: Data Entry & Data Processing
+## 📊 Section 3: Data Entry & Data Processing *(simulated / dummy datasets)*
 
 ### Project A: B2B Lead List Generation (500 Verified Records)
 - **Target Persona:** HR Directors / Heads of People in US tech companies (200–1,000 employees).
@@ -97,7 +101,7 @@ Detail-oriented remote specialist bridging administrative operations, transcript
 
 ---
 
-## ⌨️ Section 5: Typing Speed & Benchmark Proof
+## ⌨️ Section 5: Typing Speed & Benchmark Proof *(self-tests)*
 
 | Metric | Result | Benchmark Source |
 |---|---|---|
