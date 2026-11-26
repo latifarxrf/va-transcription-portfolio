@@ -1,0 +1,11 @@
+reconciliation_id,po_number,po_date,vendor_name,po_amount_usd,grn_number,grn_date,grn_status,invoice_number,invoice_date,invoice_amount_usd,variance_usd,variance_explanation,reconciliation_status,approved_by
+REC-2026-001,PO-89421,2026-10-15,Amazon Web Services,4520.00,GRN-0981,2026-10-31,Service Rendered,INV-AWS-882194,2026-11-01,4520.00,0.00,Exact Match,Approved,Finance Lead
+REC-2026-002,PO-89422,2026-10-18,Google Workspace Enterprise,1840.00,GRN-0982,2026-10-31,Service Rendered,INV-GOOG-41209,2026-11-01,1840.00,0.00,Exact Match,Approved,Finance Lead
+REC-2026-003,PO-89423,2026-10-20,Apex Office Equipment Ltd,3250.00,GRN-0985,2026-10-28,Goods Received 100%,INV-APX-77412,2026-10-29,3250.00,0.00,Exact Match,Approved,Ops Manager
+REC-2026-004,PO-89424,2026-10-22,WeWork Shared Spaces,5600.00,GRN-0988,2026-10-31,Facility Verified,INV-WW-994102,2026-11-02,5600.00,0.00,Exact Match,Approved,Finance Lead
+REC-2026-005,PO-89425,2026-10-25,FastTrack Global Couriers,890.00,GRN-0991,2026-10-30,Deliveries Complete,INV-FTC-10941,2026-10-31,915.00,+25.00,Fuel surcharge adjusted per contract,Approved with Note,Logistics Lead
+REC-2026-006,PO-89426,2026-10-27,Slack Technologies,2400.00,GRN-0994,2026-10-31,Service Rendered,INV-SLK-33819,2026-11-01,2400.00,0.00,Exact Match,Approved,IT Director
+REC-2026-007,PO-89427,2026-10-28,Delta Airlines Corporate,4120.00,GRN-0997,2026-10-29,Ticket Issued,INV-DAL-78219,2026-10-29,4120.00,0.00,Exact Match,Approved,Executive VA
+REC-2026-008,PO-89428,2026-10-30,Zendesk Support Platform,1650.00,GRN-1002,2026-10-31,Service Rendered,INV-ZEN-90184,2026-11-01,1650.00,0.00,Exact Match,Approved,CS Lead
+REC-2026-009,PO-89429,2026-11-02,Metro Catering Services,1420.00,GRN-1005,2026-11-05,Event Completed,INV-MCS-55102,2026-11-06,1420.00,0.00,Exact Match,Approved,Office Admin
+REC-2026-010,PO-89430,2026-11-04,Canva Enterprise Design,600.00,GRN-1008,2026-11-04,Seats Activated,INV-CNV-10294,2026-11-04,600.00,0.00,Exact Match,Approved,Marketing Lead
