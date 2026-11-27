@@ -1,6 +1,6 @@
 > ℹ️ **Catatan transparansi:** Ini adalah portofolio **entry-level**. Semua proyek di halaman ini adalah **latihan terstruktur dan simulasi kasus nyata** — bukan pekerjaan untuk klien industri. Saya membangunnya sendiri untuk menunjukkan proses kerja, standar QC, dan kemampuan teknis saya. Semua angka di bawah berasal dari proyek simulasi, dataset latihan, dan uji mandiri saya, bukan dari produksi klien. Cara paling jujur untuk memverifikasi kemampuan saya: **paid trial 5 jam** dengan file kerja nyata Anda.
 
-# Bagian 1: Profil & Posisi
+## Bagian 1: Profil & Posisi
 
 **Nama:** Latifar — GitHub: latifarxrf
 **Lokasi:** Indonesia (GMT+7 / WIB) — siap overlap dengan jam kerja AS (EST/PST) dan Eropa
@@ -13,7 +13,7 @@
 
 **Setup kerja:** PC multi-core (RAM 16GB+, dua monitor untuk cross-check), Audio-Technica ATH-M50x + USB transcription foot pedal, internet fiber (50+ Mbps) dengan cadangan 4G LTE, password manager, dan komitmen NDA.
 
-# Bagian 2: Proyek Virtual Assistant (latihan terstruktur & simulasi)
+## Bagian 2: Proyek Virtual Assistant (latihan terstruktur & simulasi)
 
 > Skenario di bawah adalah simulasi kasus bisnis, bukan proyek klien. Dokumen kerja lengkapnya ada di repo GitHub.
 
@@ -47,7 +47,7 @@
 - **Pipeline produksi:** Idea → Research → Draft → Review → Design → Schedule.
 - **File:** [social-media-content-calendar.csv](https://github.com/latifarxrf/va-transcription-portfolio/blob/main/01-virtual-assistant/social-media-content-calendar.csv)
 
-# Bagian 3: Transkripsi Audio & Standar QC (latihan terstruktur)
+## Bagian 3: Transkripsi Audio & Standar QC (latihan terstruktur)
 
 > Contoh di bawah adalah transkrip latihan; file audio tidak disertakan karena menyangkut hak cipta. Yang dinilai adalah proses, format, dan disiplin QC.
 
@@ -77,7 +77,7 @@
 
 - **File:** [transcription-style-guide-sop.md](https://github.com/latifarxrf/va-transcription-portfolio/blob/main/02-transcription/transcription-style-guide-sop.md)
 
-# Bagian 4: Data Entry & Pemrosesan Data (simulasi)
+## Bagian 4: Data Entry & Pemrosesan Data (simulasi)
 
 > Seluruh dataset di repo ini adalah data dummy/sintetis untuk latihan; bukan data klien dan tidak berisi informasi pribadi nyata.
 
@@ -100,7 +100,7 @@
 - **Pipeline Python:** de-duplikasi, deteksi pola straight-lining, konsistensi logika antar jawaban, normalisasi encoding UTF-8.
 - **File:** [survey_cleaning_pipeline.py](https://github.com/latifarxrf/va-transcription-portfolio/blob/main/03-data-entry-and-processing/survey_cleaning_pipeline.py) · [survey-cleaning-report.md](https://github.com/latifarxrf/va-transcription-portfolio/blob/main/03-data-entry-and-processing/survey-cleaning-report.md)
 
-# Bagian 5: Tools & Teknologi
+## Bagian 5: Tools & Teknologi
 
 - **Administrasi & Kolaborasi:** Google Workspace (Docs, Sheets, Calendar, Gmail), Microsoft 365 (Word, Excel, Outlook), Notion, Trello, Asana, Slack, Zoom, Loom.
 - **Transkripsi:** Express Scribe Pro, USB transcription foot pedal, oTranscribe, PhraseExpress (text expansion & hotkeys).
@@ -109,7 +109,7 @@
 - **Desain & Media:** Canva, CapCut (captioning & sinkronisasi subtitle).
 - **Teknis:** Windows 11, WSL Ubuntu, Git/GitHub, VS Code.
 
-# Bagian 6: Kecepatan Mengetik, Rates & Model Kerja
+## Bagian 6: Kecepatan Mengetik, Rates & Model Kerja
 
 ### Benchmark Mengetik (uji mandiri, 10FastFingers/Monkeytype)
 
@@ -134,7 +134,7 @@
 
 > Rates di atas adalah tarif awal entry-level yang bisa naik sesuai kompleksitas, deadline, dan cakupan kerja. Retainer, kontrak bulanan, atau proyek berbasis milestone tersedia. **Paid trial 5 jam** bisa dijadikan langkah pertama.
 
-# Bagian 7: Kontak & Langkah Berikutnya
+## Bagian 7: Kontak & Langkah Berikutnya
 
 - **Email:** [farhan.nur.huda092@gmail.com](mailto:farhan.nur.huda092@gmail.com)
 - **WhatsApp:** +62 856-0485-5862 (wa.me/6285604855862)

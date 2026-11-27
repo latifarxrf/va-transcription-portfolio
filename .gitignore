@@ -1,0 +1,20 @@
+# Excel lock files
+~$*.xlsx
+~$*.xls
+
+# Temp files
+tmp-*.ps1
+tmp-*.sh
+tmp-*.png
+tmp-*.pdf
+tmp-*.xml
+tmp-*.txt
+tmp-*.log
+
+# Build artifacts (keep source scripts, ignore intermediate outputs)
+03-data-entry-and-processing/.png
+03-data-entry-and-processing/tmp-*
+
+# OS
+.DS_Store
+Thumbs.db

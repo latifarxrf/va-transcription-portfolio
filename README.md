@@ -95,7 +95,23 @@ Detail-oriented remote specialist bridging administrative operations, transcript
 - **Workflow:** Automated matching between Purchase Orders (PO), Goods Receipt Notes (GRN), and Vendor Invoices.
 - **Accuracy Metric:** 100% precision with zero variance policy on tax (PPN/PPh) and banking disbursement details.
 
-### Project C: Survey Dataset Cleaning Pipeline (2,500 Respondents)
+### Project C: Invoice Tracker & QC — 3-Way Match (PO / GRN / Invoice)
+- **Scope:** End-to-end QA workbook for 3-way invoice reconciliation (Purchase Order vs Goods Receipt Note vs Invoice). Built entirely with live Excel formulas — no hardcoded results.
+- **What it does:**
+  1. **Data Simulasi** (input tab) — 10 simulated transactions from CSV + 1 deliberately added case where the GRN document is missing.
+  2. **Pencocokan Invoice** (process tab) — Formula-driven comparison: invoice vs PO, invoice vs GRN value, document completeness check. Tolerance parameter (cell B3) controls the "Perlu Dicek" threshold.
+  3. **Perlu Dicek** (output tab) — Auto-extracted list of flagged transactions with reason (variance / missing GRN), recommended action, and PIC to contact. Yellow columns = manual fill after vendor follow-up.
+  4. **Ringkasan ke Pemilik** — Ready-to-send email & WhatsApp template for the business owner, plus a 5-hour trial scope checklist.
+- **Key result (simulated):** 11 transactions, 9 exact matches, 2 flagged → `INV-FTC-10941` (fuel surcharge +US$25) and `INV-NWS-48210` (GRN missing, amount matches PO but receipt doc not attached).
+- **Technical stack:** Excel formulas only (INDEX/MATCH, IF/OR, COUNTIF, SUMIF, TEXT, cross-sheet references). Zero VBA, zero Power Query — fully auditable.
+- **Files in repo:**
+  - `03-data-entry-and-processing/invoice-tracker-qc.xlsx` — the workbook (view-only link below)
+  - `03-data-entry-and-processing/invoice-tracker-qc-perlu-dicek.png` — screenshot of the **Perlu Dicek** tab
+- **View-only workbook:** [invoice-tracker-qc.xlsx](https://github.com/latifarxrf/va-transcription-portfolio/raw/main/03-data-entry-and-processing/invoice-tracker-qc.xlsx) (GitHub raw download)
+- **Screenshot — Perlu Dicek tab:**
+  ![Perlu Dicek](03-data-entry-and-processing/invoice-tracker-qc-perlu-dicek.png)
+
+### Project D: Survey Dataset Cleaning Pipeline (2,500 Respondents)
 - **Scope:** Cleaning noisy customer satisfaction survey data prior to statistical modeling.
 - **Automated Python Pipeline:** De-duplication, detection of straight-lining response patterns, logic consistency enforcement, and UTF-8 encoding normalization.
 
