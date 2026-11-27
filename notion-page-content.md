@@ -88,11 +88,21 @@
 - **Hasil:** 500 baris terstruktur, email bisnis terverifikasi (simulasi), job title dan company size dinormalisasi.
 - **File:** [b2b-lead-list-sample-500.csv](https://github.com/latifarxrf/va-transcription-portfolio/blob/main/03-data-entry-and-processing/b2b-lead-list-sample-500.csv)
 
-### Proyek B: Invoice Processing & 3-Way Reconciliation
+### Proyek B: Invoice Tracker & QC — 3-Way Match Workbook
 
-- **Scope:** pemrosesan 200+ invoice dan kuitansi vendor per bulan (data simulasi).
-- **Workflow:** pencocokan Purchase Order (PO) ↔ Goods Receipt Note (GRN) ↔ Invoice, dengan toleransi nol selisih pada detail pajak (PPN/PPh) dan pembayaran.
-- **File:** [invoice-reconciliation-3-way-matching.csv](https://github.com/latifarxrf/va-transcription-portfolio/blob/main/03-data-entry-and-processing/invoice-reconciliation-3-way-matching.csv)
+- **Scope:** End-to-end QA workbook untuk rekonsiliasi 3-way invoice (PO ↔ GRN ↔ Invoice). Dibangun sepenuhnya dengan formula Excel live — tanpa hardcoded results.
+- **4 tab workbook:**
+  1. **Data Simulasi** (input) — 10 transaksi dari CSV + 1 kasus tambahan tanpa dokumen GRN.
+  2. **Pencocokan Invoice** (proses) — formula-driven: invoice vs PO, invoice vs nilai GRN, cek kelengkapan dokumen. Toleransi parameter (sel B3) mengontrol threshold "Perlu Dicek".
+  3. **Perlu Dicek** (output) — daftar otomatis transaksi berflag dengan alasan (variansi / GRN hilang), tindakan direkomendasikan, dan PIC yang perlu dihubungi. Kolom kuning = isi manual setelah follow-up vendor.
+  4. **Ringkasan ke Pemilik** — template email & WhatsApp siap kirim untuk pemilik bisnis, plus checklist scope trial 5 jam.
+- **Hasil kunci (simulasi):** 11 transaksi, 9 exact match, 2 flagged → `INV-FTC-10941` (fuel surcharge +US$25) dan `INV-NWS-48210` (GRN tidak ada, nominal sama PO tapi dokumen penerimaan tidak terlampir).
+- **Stack teknis:** formula Excel saja (INDEX/MATCH, IF/OR, COUNTIF, SUMIF, TEXT, cross-sheet reference). Zero VBA, zero Power Query — fully auditable.
+- **File di repo:**
+  - `03-data-entry-and-processing/invoice-tracker-qc.xlsx` — workbook ([view-only raw link](https://github.com/latifarxrf/va-transcription-portfolio/raw/main/03-data-entry-and-processing/invoice-tracker-qc.xlsx))
+  - `03-data-entry-and-processing/invoice-tracker-qc-perlu-dicek.png` — screenshot tab Perlu Dicek
+  - `03-data-entry-and-processing/build-invoice-tracker.ps1` — script build workbook
+  - `03-data-entry-and-processing/export-screenshot.ps1` — script export screenshot
 
 ### Proyek C: Cleaning Pipeline Data Survei (2.500 Responden)
 
